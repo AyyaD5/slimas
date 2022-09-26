@@ -31,7 +31,7 @@ if __name__ == "__main__":
 		param_check()
 		file_check()
 		while True:
-			target = raw_input("\033[1;37m[ \033[1;31mGRT \033[1;37m]> ")
+			target = raw_input("\033[1;37m[ \033[1;31mBJN \033[1;37m]> ")
 			a = slims(target, sys.argv[1])
 	except:
 		pass
